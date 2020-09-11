@@ -1,0 +1,9 @@
+This code will allow you to send messages periodically from your local machine using whatsapp.
+you need to insall some libraries first:
+        1. twilio
+        2. apscheduler
+Also every time you have to change your Auth Token belonging to your Account SID Or your API 
+credentials will be compromised.
+I shared fake Auth Token for security.
+I had made my project using VS code.
+          
