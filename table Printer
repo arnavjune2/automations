@@ -1,0 +1,17 @@
+def tablePrinter(arr : list):
+  
+  for i in range(len(arr[0])):
+    for j in range(len(arr)):
+      print(arr[j][i] , end = ' ')
+    print(" ")
+
+
+
+#driver code
+if __name__ == "__main__":
+    tableData = [['apples' , 'oranges' , 'cherries' , 'bananas'],
+                 ['alice' , 'bob' , 'carol' , 'david'],
+                 ['dogs' , 'cats' , 'moose' , 'goose']]
+
+
+    tablePrinter(tableData)            
